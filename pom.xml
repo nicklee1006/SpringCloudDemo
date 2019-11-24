@@ -20,6 +20,8 @@
     <modules>
         <module>parent-pom</module>
         <module>eureka/service-discovery</module>
+        <module>eureka/service-hello</module>
+        <module>eureka/service-hello-consumer</module>
     </modules>
 
 </project>

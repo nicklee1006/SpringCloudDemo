@@ -8,7 +8,7 @@
         <groupId>com.nick.springclouddemo</groupId>
         <artifactId>parent-pom</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent-pom/pom.xml</relativePath>
+        <relativePath>../../parent-pom/pom.xml</relativePath>
     </parent>
 
     <name>Hello Service Consumer Module</name>
@@ -23,6 +23,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
     </dependencies>
 
