@@ -22,6 +22,9 @@
         <module>service-discovery</module>
         <module>service-hello</module>
         <module>service-hello-consumer</module>
+        <module>feign/product-service</module>
+        <module>feign/mall-consumer</module>
+        <module>feign/common</module>
     </modules>
 
 </project>
