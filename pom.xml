@@ -19,9 +19,9 @@
 
     <modules>
         <module>parent-pom</module>
-        <module>eureka/service-discovery</module>
-        <module>eureka/service-hello</module>
-        <module>eureka/service-hello-consumer</module>
+        <module>service-discovery</module>
+        <module>service-hello</module>
+        <module>service-hello-consumer</module>
     </modules>
 
 </project>
