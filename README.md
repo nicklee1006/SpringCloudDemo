@@ -8,3 +8,4 @@ Spring Cloud version: Greenwich.SR4
 * Eureka server
 * Eureka client - service provider
 * Eureka client - service consumer
+* Feign - Declarative REST Client
