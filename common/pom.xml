@@ -6,13 +6,13 @@
         <artifactId>parent-pom</artifactId>
         <groupId>com.nick.springclouddemo</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../parent-pom/pom.xml</relativePath>
+        <relativePath>../parent-pom/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>common</artifactId>
 
-    <name>Common Modules</name>
+    <name>Common Module</name>
 
     <build>
         <plugins>

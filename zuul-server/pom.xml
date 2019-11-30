@@ -12,7 +12,7 @@
 
     <artifactId>zuul-server</artifactId>
 
-    <name>Zuul Server</name>
+    <name>Zuul Server Module</name>
 
     <dependencies>
         <dependency>
