@@ -25,6 +25,8 @@
         <module>feign/product-service</module>
         <module>feign/mall-consumer</module>
         <module>feign/common</module>
+        <module>zuul-server</module>
+        <module>user-service</module>
     </modules>
 
 </project>

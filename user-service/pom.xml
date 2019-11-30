@@ -6,13 +6,13 @@
         <artifactId>parent-pom</artifactId>
         <groupId>com.nick.springclouddemo</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../parent-pom/pom.xml</relativePath>
+        <relativePath>../parent-pom/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Product Service Module</name>
+    <artifactId>user-service</artifactId>
 
-    <artifactId>product-service</artifactId>
+    <name>User Service Module</name>
 
     <dependencies>
         <dependency>
@@ -27,10 +27,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
     </dependencies>
 
