@@ -3,23 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>parent-pom</artifactId>
+        <artifactId>spring-cloud-demo</artifactId>
         <groupId>com.nick.springclouddemo</groupId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent-pom/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Product Service Module</name>
+    <artifactId>zipkin-server</artifactId>
 
-    <artifactId>product-service</artifactId>
+    <name>Zipkin Server Module</name>
 
     <dependencies>
-        <dependency>
-            <groupId>com.nick.springclouddemo</groupId>
-            <artifactId>common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -29,12 +24,12 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
         </dependency>
     </dependencies>
 

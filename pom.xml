@@ -27,5 +27,6 @@
         <module>service-product</module>
         <module>service-product-consumer</module>
         <module>service-user</module>
+        <module>zipkin-server</module>
     </modules>
 </project>
