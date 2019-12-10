@@ -11,3 +11,4 @@ Spring Cloud version: Greenwich.SR4
 * Feign - Declarative REST Client
 * Hystrix - Fault tolerance
 * Zuul - API Gateway
+* Config server

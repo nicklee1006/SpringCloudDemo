@@ -28,5 +28,7 @@
         <module>service-product-consumer</module>
         <module>service-user</module>
         <module>zipkin-server</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 </project>
