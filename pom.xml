@@ -14,8 +14,8 @@
     <artifactId>spring-cloud-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>Spring Cloud Eureka Demo Project</name>
-    <description>Demo project for Spring Boot Eureka</description>
+    <name>Spring Cloud Ribbon Demo Project</name>
+    <description>Demo project for Spring Boot Ribbon</description>
 
     <modules>
         <module>parent-pom</module>
