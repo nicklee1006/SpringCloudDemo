@@ -8,7 +8,7 @@ import springclouddemo.mall.entity.Product;
 
 import java.util.List;
 
-@FeignClient(value = "PRODUCT-SERVICE")
+@FeignClient(value = "PRODUCT-SERVICE", fallback = ProductServiceFallback.class)
 public interface ProductService {
     @RequestMapping(value = "/products", method = RequestMethod.GET)
     List<Product> findAll();
