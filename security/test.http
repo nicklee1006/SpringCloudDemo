@@ -1,0 +1,17 @@
+POST http://localhost:8290/oauth/token
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic demo pgDBd99tOX8d
+
+grant_type=authorization_code&code=o1JiSu&redirect_uri=http://localhost:8761&client_id=demo
+
+###
+POST http://localhost:8290/oauth/token
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic demo pgDBd99tOX8d
+
+grant_type=password&scope=spring-cloud-demo&username=admin&password=pwdAdmin
+
+###
+GET http://localhost:2200/users/my
+Authorization: bearer f8a50f6b-691c-4d35-be6a-d284b7bd8124
+###

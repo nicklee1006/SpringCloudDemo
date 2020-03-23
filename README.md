@@ -12,3 +12,5 @@ Spring Cloud version: Greenwich.SR4
 * Hystrix - Fault tolerance
 * Zuul - API Gateway
 * Config server
+* Stream
+* Security
